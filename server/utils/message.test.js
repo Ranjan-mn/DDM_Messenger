@@ -4,7 +4,7 @@ var {generateMessage, generateLocationMessage} = require('./message');
 
 describe('generateMessage', () => {
   it('should generate correct message object', () => {
-    var from = 'Jen';
+    var from = 'Sumukh';
     var text = 'Some message';
     var message = generateMessage(from, text);
 
@@ -15,7 +15,7 @@ describe('generateMessage', () => {
 
 describe('generateLocationMessage', () => {
   it('should generate correct location object', () => {
-    var from = 'Deb';
+    var from = 'Vaibhav';
     var latitude = 15;
     var longitude = 19;
     var url = 'https://www.google.com/maps?q=15,19';
